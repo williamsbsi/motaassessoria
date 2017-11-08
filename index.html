@@ -8,6 +8,12 @@
 
 <div id="content"></div>->
 <!--<iframe src="http://w3mais.com.br/portaria-iate/"></iframe>-->
-<script type="text/javascript">
-	window.open('http://w3mais.com.br/portaria-iate/', '_blank', 'location=no');
+<script>
+	
+	function onDeviceReady() {
+        // external url
+        var ref = window.open(encodeURI('http://w3mais.com.br/portaria-iate/'), '_self', 'location=yes');
+        
+    }
+
 </script>
