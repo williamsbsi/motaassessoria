@@ -17,7 +17,7 @@
       Williams Reis
   </author>
   <plugin name="cordova-plugin-whitelist" spec="1" />
-  <access origin="*"></access>
+  <access origin="*" subdomains="true"></access>
   <allow-intent href="http://*/*" />
   <allow-intent href="https://*/*" />
   <allow-intent href="tel:*" />
