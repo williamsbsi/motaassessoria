@@ -16,5 +16,12 @@
   <author href="http://www.w3mais.com" email="williams.reis@w3mais.com.br">
       Williams Reis
   </author>
+  <access origin="*"></access>
+  <allow-intent href="http://*/*" />
+  <allow-intent href="https://*/*" />
+  <allow-intent href="tel:*" />
+  <allow-intent href="sms:*" />
+  <allow-intent href="mailto:*" />
+  <allow-intent href="geo:*" />
 
 </widget>
