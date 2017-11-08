@@ -16,8 +16,8 @@
   <author href="http://www.w3mais.com" email="williams.reis@w3mais.com.br">
       Williams Reis
   </author>
-  <plugin name="cordova-plugin-whitelist" spec="1" />
-  <plugin name="cordova-plugin-inappbrowser"/>
+  <plugin name="cordova-plugin-whitelist" spec="1" />  
+  <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
   <access origin="*" subdomains="true"></access>
   <allow-intent href="http://*/*" />
   <allow-intent href="https://*/*" />
